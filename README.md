@@ -2,6 +2,8 @@ I have developed all the required components, including the API, SQL, React UI, 
 
 In the user interface I have given option to select client from drop down to create building
 
+Use seed.rb file to populate information to see the results in the API and UI.
+
 This is the base repository for the SWE full-stack technical assessment take-home for candidates applying to Perchwell.
 
 # Background Information
