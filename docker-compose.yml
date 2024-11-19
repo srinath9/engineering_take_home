@@ -9,7 +9,7 @@ services:
      POSTGRES_PASSWORD: takehome
   web:
     build: .
-    command: bash -c "rm -f tmp/pids/server.pid && yarn && bundle && ./bin/dev"
+    command: bash -c "rm -f tmp/pids/server.pid && yarn && bundle && ./bin/rails db:migrate && ./bin/dev"
     volumes:
       - .:/app
     environment:
