@@ -1,3 +1,5 @@
+I have developed all the required components, including the API, SQL, React UI, and test scripts, as per the task requirements.
+
 In the user interface I have given option to select client from drop down to create building
 
 This is the base repository for the SWE full-stack technical assessment take-home for candidates applying to Perchwell.
