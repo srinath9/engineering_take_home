@@ -77,6 +77,10 @@ Your database schema should support the following main objects at a minimum:
   * Freeform fields are strings (e.g., Living room color: “Blue”)
   * Enum is a choice of strings (e.g., Type of walkway: “Brick, Concrete, or None”)
 
+USE to add some default values to db
+```
+docker-compose exec web  rails db:seed
+```
 Seed the clients table with 5 clients. You can name the clients anything you wish. 
 
 Seed a small sample of custom fields for each client.
